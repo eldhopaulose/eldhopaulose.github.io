@@ -1,1 +1,37 @@
-its me 
+<html>
+
+<head>
+    <title>java</title>
+</head>
+
+<body>
+    <center>
+        <form name="formlogin">
+            Enter user name
+            <input type="text" name="txtname">
+            <br><br>
+            Enter password
+            <input type="text" name="txtpassword">
+            <br><br>
+            <button id="login" onclick="">login</button>
+    </center>
+    </form>
+
+    <script>
+        document.getElementById("login").addEventListener("click", function (event) {
+            event.preventDefault();
+            var name, password;
+            name = document.formlogin.txtname.value;
+            password = document.formlogin.txtpassword.value;
+            if (name == "a" && password == "q") {
+                window.location.assign("hyper.html");
+            }
+            else {
+                alert("wrong input");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
