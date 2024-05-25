@@ -9,7 +9,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of ELdho Paulose",
+  title: "Portfolio of Eldho Paulose",
   description:
     "I am Eldho Paulose, a dedicated and proficient programmer driven by a relentless passion for problem-solving and technological exploration. Specializing primarily in Flutter development, I adeptly utilize Dart, GetX, Bloc, and Riverpod to craft innovative and seamless multi-platform applications, showcasing my commitment to continuous learning and mastery in the ever-evolving realm of software development",
 };
