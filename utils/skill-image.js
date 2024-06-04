@@ -227,5 +227,5 @@ export const skillsImage = (skill) => {
       return canva;
     default:
       break;
-  }
+  }   
 }
