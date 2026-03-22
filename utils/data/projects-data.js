@@ -29,6 +29,26 @@ export const projectsData = [
     demo: "https://play.google.com/store/apps/details?id=dig.leafbazar.nosta_flutter",
     image: crefin,
   },
+  {
+    id: 3,
+    name: "Resizo - Privacy-First Image Suite",
+    description: "Resizo is a high-performance, client-side image processing suite that supports resizing, compression, and format conversion (JPG, PNG, WebP, GIF) entirely within the browser. It features 100% privacy (no uploads), bulk processing with ZIP exports, and a fully localized SEO-optimized architecture supporting 7 languages. I implemented the entire i18n system, technical SEO (Sitemaps, JSON-LD), and the multilingual link directory.",
+    tools: ["HTML5", "Tailwind CSS", "JavaScript (ES6+)", "Canvas API", "Python (SEO Tools)", "i18next"],
+    role: "Full Stack & SEO Engineer",
+    code: "",
+    demo: "https://www.resizo.in/",
+    image: crefin,
+  },
+  {
+    id: 4,
+    name: "All-in-One Tools Kit",
+    description: "A senior-level utility platform (allinonetoolskit.com) built with Next.js 16, featuring a broad suite of browser-resident PDF, Image, Audio, and Developer tools. I established the 2025 SEO & AEO strategy, implemented dynamic sitemaps, JSON-LD schemas, and a multilingual architecture in 11+ languages (LTR & RTL).",
+    tools: ["Next.js 15 (App Router)", "TypeScript", "Tailwind CSS v4", "Next-Intl", "Web Workers", "pdf-lib"],
+    role: "SEO Architect & Lead Developer",
+    code: "",
+    demo: "https://allinonetoolskit.com",
+    image: crefin,
+  },
 ];
 
 // Do not remove any property.
