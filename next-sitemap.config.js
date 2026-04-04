@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://eldhopaulose.info",
+  siteUrl: process.env.SITE_URL || "https://eldhopaulose.github.io",
   generateRobotsTxt: true,
-  outDir: "./out",
+  outDir: "./public",
 };
